@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.53.0",
+    "@types/stripe": "^8.0.417",
+    "canvas-confetti": "^1.6.0",
     "next": "13.4.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "stripe": "^12.7.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6"
   }
 }
