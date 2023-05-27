@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/client": "^6.1.2",
+    "@sanity/image-url": "^1.0.1",
     "@stripe/stripe-js": "^1.53.0",
     "@types/stripe": "^8.0.417",
     "canvas-confetti": "^1.6.0",
