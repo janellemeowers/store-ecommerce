@@ -16,7 +16,7 @@ An E-commerce store application built with React/NextJS, Stripe, Sanity, and foc
 - Please don't actually order any headphones 😂
 
 <img src="/public/confetti.png">
-<img src="/public/cart.png>
+<img src="/public/cart.png">
 
 ## Challenges
 
@@ -28,3 +28,7 @@ As I'm learning, I like to note a few challenges/bugs that I tackled:
 
 - Add local storage so cart doesn't refresh upon reload.
 - Cart updating fix- so that when an item quantity is adjusted, it's not moved in the cart order.
+
+## Link
+
+<link href='https://headphones-jmyers.vercel.app/'>View site</>
