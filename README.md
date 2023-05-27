@@ -31,4 +31,4 @@ As I'm learning, I like to note a few challenges/bugs that I tackled:
 
 ## Link
 
-<link href='https://headphones-jmyers.vercel.app/'>View site</>
+<a href='https://headphones-jmyers.vercel.app/'>View site</a>
