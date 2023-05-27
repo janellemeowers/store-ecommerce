@@ -52,7 +52,7 @@ export default async function handler(req, res) {
         }),
         //if payment sucess go to this page
         success_url: `${req.headers.origin}/success`,
-        cancel_url: `${req.headers.origin}/canceled`,
+        cancel_url: `${req.headers.origin}/`,
       };
 
       // Create Checkout Sessions from above params.
