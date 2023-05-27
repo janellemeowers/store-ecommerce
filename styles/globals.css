@@ -143,7 +143,7 @@ span.text-red {
 .hero-banner-container button {
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
+  background-color: #f45050;
   color: white;
   border: none;
   margin-top: 40px;
@@ -162,6 +162,7 @@ span.text-red {
   font-size: 10em;
   margin-left: -20px;
   text-transform: uppercase;
+  display: flex;
 }
 .hero-banner-image {
   position: absolute;
@@ -208,7 +209,7 @@ span.text-red {
 }
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #f45050;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -437,7 +438,7 @@ span.text-red {
 }
 
 .selected-image {
-  background-color: #f02d34;
+  background-color: #f45050;
 }
 .reviews {
   color: #f02d34;
@@ -610,19 +611,20 @@ span.text-red {
 @media screen and (max-width: 800px) {
   .hero-banner-container {
     height: 560px;
+    justify-content: flex-start;
   }
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 52%;
+    height: 52%;
+    top: 35%;
+    right: 16%;
   }
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 77%;
+    width: 70%;
     left: 30%;
     top: 6%;
     height: 56%;
@@ -653,12 +655,17 @@ span.text-red {
   }
   .hero-banner-container h1 {
     font-size: 50px;
+    margin-left: 1px;
   }
   .hero-banner-container h3 {
     font-size: 40px;
+    margin-left: 2px;
+  }
+  .hero-banner-container .beats-solo {
+    margin-left: 3px;
   }
   .hero-banner-container button {
-    margin-top: 90px;
+    margin-top: 80px;
     z-index: 10000;
   }
   .desc {
