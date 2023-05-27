@@ -12,7 +12,11 @@ const Layout = ({ children }) => {
     <div className="layout">
       {/* //html title */}
       <Head>
-        <link rel="icon" href="/public/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="/public/favicon.ico"
+        />
         <title>Beatz Headphones Store</title>
       </Head>
       {/* //header NAV */}
